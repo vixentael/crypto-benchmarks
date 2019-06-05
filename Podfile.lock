@@ -1,0 +1,32 @@
+PODS:
+  - BoringSSL (10.0.6):
+    - BoringSSL/Implementation (= 10.0.6)
+    - BoringSSL/Interface (= 10.0.6)
+  - BoringSSL/Implementation (10.0.6):
+    - BoringSSL/Interface (= 10.0.6)
+  - BoringSSL/Interface (10.0.6)
+  - themis/themis-boringssl (0.11.0):
+    - BoringSSL (~> 10.0)
+    - themis/themis-boringssl/core (= 0.11.0)
+    - themis/themis-boringssl/objcwrapper (= 0.11.0)
+  - themis/themis-boringssl/core (0.11.0):
+    - BoringSSL (~> 10.0)
+  - themis/themis-boringssl/objcwrapper (0.11.0):
+    - BoringSSL (~> 10.0)
+    - themis/themis-boringssl/core
+
+DEPENDENCIES:
+  - themis/themis-boringssl (= 0.11)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BoringSSL
+    - themis
+
+SPEC CHECKSUMS:
+  BoringSSL: e10f92a27043805c01071fe815a5cd98ae8212e7
+  themis: a588aef3fef2d20c798b5b1bab94188e703bf861
+
+PODFILE CHECKSUM: 2bb893fb814f2536c287a2101f3ce9fe19a78936
+
+COCOAPODS: 1.7.0
