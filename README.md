@@ -3,15 +3,21 @@ Sandbox project to measure benchmarks between Themis and new Apple's CryptoKit
 
 
 # Environment
-macOS 10.14.4, MBP late 2013, 2.8 GHz Intel Core i7
-xcode 11 (Version 11.0 beta (11M336w))
 
-iPad Pro 10", iOS13 beta
+### macOS
+macOS 10.14.4, MBP late 2013, 2.8 GHz Intel Core i7
+
+xcode 11 (Version 11.0 beta (11M336w))
 
 ```
 pod --version
 1.7.0
 ```
+
+### iPadOS
+
+iPad Pro 10", iOS13 beta
+
 
 # To run
 
